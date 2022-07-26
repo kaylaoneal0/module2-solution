@@ -1,0 +1,126 @@
+/********** Base styles **********/
+* {
+  box-sizing: border-box;
+}
+
+html
+{
+  font-size: 16px;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 2rem;
+}
+
+p {
+  font-family: Helvetica;
+}
+
+.row
+{
+  width: 100%;
+}
+
+/*position styles*/ 
+
+.textCenter 
+{
+  text-align: center!important;
+}
+
+.relative 
+{
+  position: relative;
+}
+
+.absolute
+{
+  position: absolute;
+}
+
+
+/*Color Styles*/
+#beefTitle {
+  background-color:#9FE2BF;
+}
+
+#fishTitle {
+  background-color:#6495ED;
+}
+
+
+
+/*elements*/ 
+
+.foodDiv
+{
+  background-color: #FFB6C1;
+  box-sizing: border-box;
+  border: 1px solid #000000;
+  margin: 10px 20px 20px 20px;
+  padding: 0px 10px;
+}
+
+.foodDiv p
+{
+  padding-top: 10px;
+}
+
+.foodDescription
+{
+  padding-top: 10px;
+}
+
+.foodCategory
+{
+  right: 0;
+  background-color: red;
+  color: white;
+  border-left: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  width: 100px;
+  padding: 0 10px;
+  text-align: center;
+}
+
+/*.foodDescription
+{
+  text-align: left;
+  position: relative;
+  padding:10px 10px 0px 10px
+}*/
+
+
+
+
+/* Simple Responsive Framework. */
+
+
+@media (min-width: 768px)
+{
+  .col-md-6 
+  {
+    width: 50%;
+    float: left;
+  }
+
+  .col-md-12
+  {
+    width: 100%;
+    float: left;
+  }
+
+
+}
+
+@media (min-width:992px)
+{
+
+  .col-lg-4
+  {
+    width: 33%;
+  }
+
+}
+
